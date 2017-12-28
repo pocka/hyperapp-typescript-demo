@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development webpack-dev-server --config ./config/webpack/webpack.config.js --content-base src --hot --host 0.0.0.0 --port 8080",
+    "compile": "NODE_ENV=production webpack --config ./config/webpack/webpack.config.js",
+    "build": "npm run compile && cp src/index.html public/"
   },
   "repository": {
     "type": "git",
