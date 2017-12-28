@@ -7,6 +7,8 @@
       "es2015.promise",
       "es2016"
 		],
+		"jsx": "react",
+		"jsxFactory": "h",
 		"target": "es5",
 		"strict": true,
 		"module": "es2015",
