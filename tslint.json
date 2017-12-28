@@ -12,6 +12,7 @@
 		"quotemark": [
 			true,
 			"single",
+			"jsx-double",
 			"avoid-escape"
 		],
 		"arrow-parens": [
