@@ -11,11 +11,9 @@ export const state: State = {
 
 // Actions
 export interface Actions {
-  increment(): State
-  decrement(): State
+  change(value: number): State
 }
 
 export const actions: ActionsType<State, Actions> = {
-  increment: () => $state => ({ count: $state.count + 1 }),
-  decrement: () => $state => ({ count: $state.count - 1 })
+  change: count => $state => ({ ...$state, count })
 }

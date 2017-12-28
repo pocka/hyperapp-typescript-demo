@@ -1,0 +1,39 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+  padding: 1em;
+}
+
+.count {
+  color: #333;
+  padding: 0 1em;
+}
+
+.button {
+  $bg-color: #eee;
+  $fg-color: #333;
+  $size: 35px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  width: $size;
+  height: $size;
+
+  border-radius: 50%;
+  border: 1px solid darken($bg-color, 5%);
+  background-color: $bg-color;
+  color: $fg-color;
+
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+
+  &:hover {
+    background-color: darken($bg-color, 5%);
+  }
+
+  &:active {
+    background-color: darken($bg-color, 10%);
+  }
+}
