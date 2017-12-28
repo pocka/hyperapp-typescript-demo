@@ -4,7 +4,7 @@ end_of_line = lf
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.(js,jsx,ts,tsx)]
+[*.{js,jsx,ts,tsx}]
 indent_size = 2
 indent_style = space
 
@@ -12,6 +12,6 @@ indent_style = space
 indent_size = 2
 indent_style = tab
 
-[*.(css,sass,scss)]
+[*.{css,sass,scss}]
 indent_size = 2
 indent_style = space
