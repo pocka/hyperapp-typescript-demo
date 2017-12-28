@@ -18,12 +18,7 @@
 		"experimentalDecorators": true,
 		"allowSyntheticDefaultImports": true,
     "strictNullChecks": true,
-    "baseUrl": ".",
-    "paths": {
-      "common/*": ["common/*"],
-      "entry/*": ["entry/*"],
-      "admin/*": ["admin/*"]
-    }
+    "baseUrl": "."
   },
   "exclude": [
     "node_modules/**/*"
