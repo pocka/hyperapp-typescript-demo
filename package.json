@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/pocka/hyperapp-demo/issues"
   },
-  "homepage": "https://github.com/pocka/hyperapp-demo#readme"
+  "homepage": "https://github.com/pocka/hyperapp-demo#readme",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^1.1.5",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7",
+    "webpack-merge": "^4.1.1"
+  }
 }
